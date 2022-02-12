@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+import React from 'react'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+
 
 function App() {
   return (
-    <div>
-      <h1>React Projects</h1>
-      <h1>Vijay ratan singh and Local peoples</h1>
+    <div  className="App">
+     <h1>This is very important to US</h1>
+      <button className="btn btn-success">thisisiclassnpm st</button> 
     </div>
+   
   );
 }
 

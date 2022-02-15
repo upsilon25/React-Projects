@@ -11,11 +11,12 @@
 }
 .i-right{
     flex: 1;
+    position: relative;
 }
 
 .i-left-wrapper{
     padding: 50px;
-    background-color: lawngreen;
+    
 }
 .i-title{
     height: 50px;
@@ -36,15 +37,26 @@
 .i-title-item{
     font-size: 30px;
     font-weight: bold;
-    color: rgb(23, 138, 23);
-
+    
     display: flex;
     align-items: center;
     text-align: center;
 }
 
 .i-img{
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.i-bg{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: lawngreen;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    
+
 }

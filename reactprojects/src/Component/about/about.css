@@ -1,0 +1,50 @@
+.a{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    
+}
+.a-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    
+    height: 100%;
+}
+.a-right{
+    flex: 1;
+}
+.a-card{
+    width: 50%;
+    height: 70vh;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.a-card.bg{
+    background-color: rgba(0, 0, 0, 0.76);
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    
+}
+.a-img{
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+.a-awardimg{
+   width: 200px;
+   height: 200px;
+   padding:20px 30px 20px 0px; 
+}
+.a-award{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

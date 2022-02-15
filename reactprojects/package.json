@@ -40,6 +40,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "css-loader": "^6.6.0",
+    "gh-pages": "^3.2.3",
+    "style-loader": "^3.3.1"
   }
 }

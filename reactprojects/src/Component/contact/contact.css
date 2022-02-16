@@ -1,0 +1,23 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 100vh;
+    background-color: steelblue;
+    position: absolute;
+}
+.c-wrapper{
+     margin-left: 40px;
+    height: 100vh;
+    background-color: tan;
+    display: flex;
+}
+.c-left{
+    flex: 1;
+    
+}
+.c-right{
+    flex: 1;
+}

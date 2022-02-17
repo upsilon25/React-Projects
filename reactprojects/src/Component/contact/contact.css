@@ -4,14 +4,14 @@
 }
 .c-bg{
     width: 20px;
-    height: 100vh;
+    height: 90vh;
     background-color: steelblue;
     position: absolute;
 }
 .c-wrapper{
      margin-left: 40px;
     height: 100vh;
-    background-color: tan;
+    background-color: #ffffff;
     display: flex;
 }
 .c-left{
@@ -20,4 +20,58 @@
 }
 .c-right{
     flex: 1;
+    padding: 50px 0 ;
+}
+.c-title{
+    margin: 40px 20px 20px 20px ;
+    font: bold;
+    font-size: 5rem;
+}
+.c-info{
+   padding: 20px 10% 10% 0;
+   
+}
+.c-info-item{
+      display: flex;
+      
+}
+.c-img{
+    width: 30px;
+    height: 30px;
+    background-size:cover;
+    margin:0 40px 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer; 
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 200px;
+    margin: 4px 0;
+    padding: 2% 0 ;
+    
+    border-bottom:1px solid #000000 ;
+}
+textarea{
+    
+    width: 400px;
+    height: 20vh;
+    margin: 20px 0 0 0 ;
+  
+}
+.submit{
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    margin-left: 0;
+    cursor: pointer; 
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(192, 190, 188);
 }

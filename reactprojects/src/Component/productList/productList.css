@@ -19,3 +19,30 @@
     justify-content: space-between;
 
 }
+@media screen and (max-width:480px){
+    
+    .pl{
+        padding: 5px 10px; 
+        text-align: center;
+        width: 100%;
+        margin-top: 100%;
+    }
+    .pl-texts{
+        width: 85%;
+    }
+    .pl-title{
+        font-size: 25px;
+        
+    }
+    .pl-desc{
+        display: none;
+    }
+    .pl-list{
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+    }
+}

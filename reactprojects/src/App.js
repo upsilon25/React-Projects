@@ -17,7 +17,6 @@ const darkmode = theme.state.darkmode
       <Toggle />
       <Intro />
       <About /> 
-      <Contact />  
       <ProductList />
       <Contact />   
     </div> 

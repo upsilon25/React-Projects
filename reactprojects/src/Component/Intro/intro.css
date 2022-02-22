@@ -65,8 +65,10 @@
 
 @media screen and (max-width:380px){
   .i{
-      display: flex;
+      
       flex-direction: column;
+      justify-content: center;
+      margin: auto;
       width: 300px;
       overflow: hidden;
      
@@ -89,4 +91,6 @@
     left: 0;
     
 }
-}
+.i-right{
+  
+}}

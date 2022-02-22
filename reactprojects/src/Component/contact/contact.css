@@ -81,18 +81,33 @@ textarea{
 }
 
 @media screen and (max-width:480px){
-     .c-wrapper{
+    .c{
+       display: block;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       font-size: 20px;
+    } 
+    .c-wrapper{
          flex-direction: column;
          font-size: 2px;
      }
      textarea{
     
-        width: 100px;
+        width: 80%;
         height: 20vh;
         margin: 20px 0 0 0 ;
       
     }
-    h1{
-        font-size: .1rem;
+    .c-title{
+        font-size: 30px;
+    }
+    .c-info-item{
+        font-size: 20px;
+    }
+    .c-desc{
+        font-size: 20px;
+    }
+    .form{
+        font-size: 20px;
     }
 }

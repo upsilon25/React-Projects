@@ -1,0 +1,30 @@
+.t{
+    width: 40px ;
+    margin: 25px ;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    
+    position: fixed;
+    top: 10;
+    right: 10px;
+    z-index: 10;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20%;
+}
+.t-icon{
+ 
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+    margin: 3px 3px;
+}
+.t-button{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    left:25px;
+}

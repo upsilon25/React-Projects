@@ -6,7 +6,7 @@ import ProductList from './Component/productList/productList'
 import Contact from './Component/contact/contact'
 import Toggle from './Component/toggle/toggle'
 import { ThemeContext } from './context'
-
+import "./App.css"
 
 
 function App() {

@@ -1,6 +1,7 @@
 .c{
     height: 100vh;
     position: relative;
+ 
 }
 .c-bg{
     width: 20px;
@@ -11,7 +12,6 @@
 .c-wrapper{
     margin-left: 40px;
     height: 100vh;
-  
     display: flex;
 }
 .c-left{
@@ -52,8 +52,8 @@ input{
     outline: none;
     border: none;
     width: 200px;
-    margin: 4px 0;
-    padding: 2% 0 ;
+    margin: 4px 2px;
+    padding: 2% 2% ;
     
     border-bottom:1px solid #000000 ;
 }
@@ -62,7 +62,7 @@ textarea{
     width: 400px;
     height: 20vh;
     margin: 20px 0 0 0 ;
-  
+    padding: 2% 2% ;
 }
 .submit{
     margin: 20px;
@@ -73,7 +73,7 @@ textarea{
     cursor: pointer; 
     border: none;
     color: rgb(0, 0, 0);
-    background-color: rgb(192, 190, 188);
+    
 }
 .c-feedback{
     color: rgb(22, 151, 22);
@@ -86,10 +86,14 @@ textarea{
        margin-top: 20px;
        margin-bottom: 20px;
        font-size: 20px;
+       height:220vh;
     } 
     .c-wrapper{
          flex-direction: column;
+         margin: auto;
+         padding: 2% 10%;
          font-size: 2px;
+       
      }
      textarea{
     
@@ -103,11 +107,19 @@ textarea{
     }
     .c-info-item{
         font-size: 20px;
+        margin: 4px 2px 2px 2px ;
     }
-    .c-desc{
-        font-size: 20px;
+    
+    .c-right{
+         margin:0px 10px;
+         padding: 10px 0;
+         
     }
     .form{
+        
+        font-size: 20px;
+    }
+    .c-desc{
         font-size: 20px;
     }
 }

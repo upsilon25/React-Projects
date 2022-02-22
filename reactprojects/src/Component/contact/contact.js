@@ -1,9 +1,11 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useContext } from 'react'
 import "./contact.css"
 import photo from "../about/img/ph.jpg"
 import emailjs from '@emailjs/browser';
+import { ThemeContext } from '../../context';
 const Contact = () =>{
-    
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
     const formref= useRef()
     const [done,setdone] =useState(false)
     const handlesubmit = (e) => {
@@ -46,10 +48,10 @@ const Contact = () =>{
                         <b>Lorem ipsum dolor sit ?</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus repellendus exercitationem dicta fuga aperiam, ab corrupti alias harum autem non quos, praesentium eos aliquam? Hic quibusdam ipsam dolores aspernatur veritatis.
                     </p>
                     <form action="" ref={formref} onSubmit={handlesubmit} className="form">
-                       <input type="text" placeholder="name" name="user_name"/> 
-                       <input type="text" placeholder="number" name="user_phone"/> 
-                       <input type="email" placeholder="email" name="user_email"/> 
-                       <textarea id="" placeholder="message" name="user_text" row="10" cols="10" rows="10"></textarea>
+                       <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="name" name="user_name"/> 
+                       <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="number" name="user_phone"/> 
+                       <input style={{backgroundColor: darkMode && "#333"}} type="email" placeholder="email" name="user_email"/> 
+                       <textarea style={{backgroundColor: darkMode && "#333"}} id="" placeholder="message" name="user_text" row="10" cols="10" rows="10"></textarea>
                        <button type="submit" className="submit" >Submit</button>
                        <div className="c-feedback"> {done && " Thankyou for your feedback !"}</div>
                     </form>
